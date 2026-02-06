@@ -20,6 +20,7 @@ import { AuthModule } from './auth/auth.module';
         POSTGRES_PORT: Joi.number().required(),
         JWT_SECRET: Joi.string().required(),
         PERPLEXITY_API_KEY: Joi.string().required(),
+        PORT: Joi.number().required(),
       }),
     }),
     UsersModule,
